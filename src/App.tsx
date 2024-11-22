@@ -31,19 +31,19 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-indigo-900 via-indigo-800 to-indigo-900 text-white">
+      <div className="bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-900 text-white">
         <div className="container mx-auto px-4 py-32">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-6">G.M. Özil</h1>
-            <p className="text-2xl text-indigo-200 mb-8">Full Stack Web Developer crafting exceptional digital experiences</p>
+            <p className="text-2xl text-emerald-200 mb-8">Full Stack Web Developer crafting exceptional digital experiences</p>
             <div className="flex space-x-4">
-              <a href="https://github.com" className="hover:text-indigo-300 transition-colors">
+              <a href="https://github.com" className="hover:text-emerald-300 transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="hover:text-indigo-300 transition-colors">
+              <a href="https://linkedin.com" className="hover:text-emerald-300 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:contact@example.com" className="hover:text-indigo-300 transition-colors">
+              <a href="mailto:contact@example.com" className="hover:text-emerald-300 transition-colors">
                 <Mail size={24} />
               </a>
             </div>
@@ -55,17 +55,17 @@ function App() {
       <Section title="What I Do" className="bg-white">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-shadow">
-            <Code2 className="w-12 h-12 text-indigo-600 mb-4" />
+            <Code2 className="w-12 h-12 text-emerald-600 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Frontend Development</h3>
             <p className="text-gray-600">Crafting responsive and intuitive user interfaces with modern frameworks and tools.</p>
           </div>
           <div className="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-shadow">
-            <Database className="w-12 h-12 text-indigo-600 mb-4" />
+            <Database className="w-12 h-12 text-emerald-600 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
             <p className="text-gray-600">Building robust and scalable server-side applications and APIs.</p>
           </div>
           <div className="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-shadow">
-            <Palette className="w-12 h-12 text-indigo-600 mb-4" />
+            <Palette className="w-12 h-12 text-emerald-600 mb-4" />
             <h3 className="text-xl font-semibold mb-2">UI/UX Design</h3>
             <p className="text-gray-600">Creating beautiful and functional designs that enhance user experience.</p>
           </div>
@@ -89,7 +89,7 @@ function App() {
           </p>
           <a
             href="mailto:contact@example.com"
-            className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors"
           >
             <Mail className="mr-2" size={20} />
             Get in Touch
@@ -98,7 +98,7 @@ function App() {
       </Section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-8">
+      <footer className="bg-emerald-900 text-emerald-200 py-8">
         <div className="container mx-auto px-4 text-center">
           <p>© {new Date().getFullYear()} G.M. Özil. All rights reserved.</p>
         </div>

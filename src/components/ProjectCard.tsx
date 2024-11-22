@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, ta
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="px-3 py-1 bg-indigo-100 text-indigo-600 rounded-full text-sm"
+              className="px-3 py-1 bg-emerald-100 text-emerald-600 rounded-full text-sm"
             >
               {tag}
             </span>
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, ta
         </div>
         <a
           href={link}
-          className="inline-flex items-center text-indigo-600 hover:text-indigo-700 transition-colors"
+          className="inline-flex items-center text-emerald-600 hover:text-emerald-700 transition-colors"
         >
           View Project <ExternalLink className="ml-1" size={16} />
         </a>
